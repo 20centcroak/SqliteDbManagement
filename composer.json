@@ -1,0 +1,21 @@
+{ 
+    "name": "croak-sqlite-dbmanagement/sqlite-dbmanagement",
+    "type": "library",
+    "description": "a set of php objects and interfaces for a simple use of sqlite databases",
+    "keywords": ["database","pdo", "sqlite"],
+    "homepage": "https://github.com/20centcroak/SqliteDbManagement",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Paveau",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "croak-dbmanagement/dbmanagement":">=1.0"
+    },
+    "autoload": {
+        "psr-4": {"Croak\\": "src"}
+    }
+
+}
